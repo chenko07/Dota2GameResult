@@ -55,7 +55,7 @@ print(classification_report(y_test, y_pred))
 from sklearn.metrics import confusion_matrix
 print(confusion_matrix(y_test, y_pred))
 
-# evaluasi model
+# Evaluate model
 scores = model.score(X_train_scaled, y_train)
 print("Accuracy: %.2f%%" % (scores*100))
       
